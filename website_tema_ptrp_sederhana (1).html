@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PTRP - Tata Ruang & Pertanahan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins', sans-serif; }
+
+    body {
+      background: linear-gradient(to right, #eef2f3, #dfe9f3);
+      color:#333;
+    }
+
+    header {
+      background: linear-gradient(135deg,#2c3e50,#27ae60);
+      color:white;
+      padding:50px 20px;
+      text-align:center;
+    }
+
+    header h1 { font-size:2.8em; }
+
+    nav {
+      display:flex;
+      justify-content:center;
+      background:#1f2c3a;
+      padding:12px;
+    }
+
+    nav a {
+      color:white;
+      margin:0 15px;
+      text-decoration:none;
+      transition:0.3s;
+    }
+
+    nav a:hover { color:#27ae60; }
+
+    .hero {
+      text-align:center;
+      padding:60px 20px;
+    }
+
+    .hero h2 { font-size:2.2em; }
+
+    .hero p { margin-top:10px; }
+
+    .container {
+      max-width:1000px;
+      margin:auto;
+      padding:20px;
+    }
+
+    .post {
+      background:white;
+      padding:25px;
+      border-radius:15px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.1);
+      margin-bottom:20px;
+      transition:0.3s;
+    }
+
+    .post:hover {
+      transform:translateY(-5px);
+    }
+
+    .tag {
+      background:#27ae60;
+      color:white;
+      padding:5px 12px;
+      border-radius:20px;
+      font-size:12px;
+      display:inline-block;
+      margin-bottom:10px;
+    }
+
+    .grid {
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:20px;
+    }
+
+    .card {
+      background:white;
+      padding:20px;
+      border-radius:12px;
+      box-shadow:0 5px 15px rgba(0,0,0,0.1);
+      text-align:center;
+    }
+
+    footer {
+      background:#1f2c3a;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:30px;
+    }
+
+    @media(max-width:768px){
+      .grid { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PTRP</h1>
+  <p>Perencanaan Tata Ruang & Pertanahan</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">Artikel</a>
+  <a href="#">Tentang</a>
+</nav>
+
+<section class="hero">
+  <h2>Mewujudkan Tata Ruang Berkelanjutan</h2>
+  <p>Pembangunan yang baik dimulai dari perencanaan ruang yang tepat.</p>
+</section>
+
+<div class="container">
+
+  <div class="post">
+    <span class="tag">Artikel Utama</span>
+    <h2>Pentingnya Kawasan Lindung dalam Perencanaan Tata Ruang</h2>
+    <p>Kawasan lindung berfungsi menjaga keseimbangan lingkungan dan melindungi ekosistem. Dalam praktiknya, sering terjadi alih fungsi lahan yang menyebabkan kerusakan lingkungan.</p>
+    <p>Hal ini berdampak pada meningkatnya risiko bencana seperti banjir dan longsor. Oleh karena itu, pengawasan dan kebijakan yang tegas sangat diperlukan.</p>
+    <p>Dengan perencanaan yang tepat, pembangunan dapat berjalan seimbang dengan kelestarian lingkungan.</p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>🌱 Lingkungan</h3>
+      <p>Menjaga keseimbangan ekosistem dan keberlanjutan sumber daya alam.</p>
+    </div>
+
+    <div class="card">
+      <h3>🏙️ Tata Ruang</h3>
+      <p>Pengaturan wilayah agar pembangunan lebih terarah dan efisien.</p>
+    </div>
+
+    <div class="card">
+      <h3>⚖️ Kebijakan</h3>
+      <p>Peraturan yang mengatur penggunaan lahan dan perlindungan kawasan.</p>
+    </div>
+
+    <div class="card">
+      <h3>🌍 Berkelanjutan</h3>
+      <p>Pembangunan yang tidak merusak lingkungan untuk masa depan.</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 PTRP | Dibuat oleh Mahasiswa</p>
+</footer>
+
+</body>
+</html>
